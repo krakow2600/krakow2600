@@ -1,0 +1,106 @@
+html {
+    font-size: 12px
+} 
+
+* {
+    box-sizing: border-box;
+    text-rendering: geometricPrecision
+} 
+
+body {
+    color:#00EB00;
+    background-color: #000;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0;
+    font-family: Courier New;
+} 
+
+h1, h2 {
+    line-height: 1.3em
+} 
+
+pre {
+    padding: 5px;
+    background-color: #000;
+    border: 1px solid #000;
+    overflow: auto
+}
+
+a {
+    cursor: pointer;
+    color: #FFFF00;
+    text-decoration: none;
+    border-bottom: 1px solid #FFFF00
+} 
+
+a:hover {
+    background-color: #FFFF00;
+    color: #000
+}
+
+.hack, .hack h1, .hack h2 {
+    font-size: 1rem;
+    font-style: normal;
+    font-family: Courier New
+} 
+
+.hack h1, .hack h2, .hack li, .hack ul {
+    float: none;
+    margin: 0;
+    padding: 0
+} 
+
+.hack h1 {
+    color: #FFFF00;
+    margin-top: 20px;
+    margin-bottom: 20px
+} 
+
+.hack ul {
+    margin-top: 20px;
+    margin-bottom: 20px
+} 
+
+.hack h1:before {
+    content: "# "
+} 
+
+.hack h2 {
+    color: #FFFF00;
+    position: relative;
+    margin-bottom: 1.75rem
+} 
+
+.hack h2:before {
+    display: inline
+} 
+
+.hack h2:before {
+    content: "## "
+} 
+
+.hack li {
+    position: relative;
+    display: block;
+    padding-left: 20px
+} 
+
+.hack li:after {
+    position: absolute;
+    top: 0;
+    left: 0
+} 
+
+.hack ul > li:after {
+    content: "-"
+} 
+
+.container {
+    max-width: 50rem
+} 
+
+.container, .container-fluid {
+    margin: 0 auto;
+    padding: 0 1rem
+} 
