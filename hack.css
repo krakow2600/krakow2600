@@ -16,6 +16,12 @@ body {
     font-family: Courier New;
 } 
 
+.center {
+    display: block;
+    margin: 0 6%;
+    width: 80%;
+}
+
 h1, h2 {
     line-height: 1.3em
 } 
