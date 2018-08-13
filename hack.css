@@ -17,7 +17,7 @@ body {
 } 
 
 .center {
-    display: block;
+    display: table-cell;
     margin: 0 6%;
     width: 80%;
 }
